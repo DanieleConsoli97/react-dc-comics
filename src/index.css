@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.open-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.container_80{
+  width: 80%;
+  margin: 0 auto;
+}
+.container_70{
+  width: 70%;
+  margin: 0 auto;
+}
+.nav_bar{
+  padding: 50px 0; 
+}
+
+.row{
+display: flex;
+align-items: center;
+
+
+}
+.list{
+display: flex;
+gap: 40px;
+}
+.list > *{
+list-style: none;
+font-size: 1.5rem;
+font-weight: bold;
+text-transform: uppercase;
+font-family: "Open Sans";
+}
+.img{
+  flex-basis: 30%;
+}
+main{
+  font-family:"Open Sans";
+  color: white;
+  text-transform: uppercase;
+ 
+}
+.main_top{
+  background-color: black;
+  padding: 100px;
+  color: white;
+}
+.main_bottom{
+  background-color: #0282f9;
+  padding: 50px 10px;
+}
+.cards{
+  display: flex;
+}
+
+.card{
+  flex-basis: calc(100%/5);
+  display: flex;
+  gap: 10px;
+}
+.img{
+height: 100%;
+display: block;
+}
+.text{
+  display: flex;
+  align-items: center;
+}
+.footer_top{
+background-image: url("../public/img/dc-logo-bg.png"),url("../public/img/footer-bg.jpg");
+background-repeat: no-repeat;
+background-size: cover ;
+height: 600px;
+}
