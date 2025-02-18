@@ -78,5 +78,28 @@ display: block;
 background-image: url("../public/img/dc-logo-bg.png"),url("../public/img/footer-bg.jpg");
 background-repeat: no-repeat;
 background-size: cover ;
-height: 600px;
+height: 450px;
+}
+.footer_bottom{
+  height: 155px;
+  background-color: #303030;
+}
+footer li{
+  list-style: none;
+  color:lightgray;
+font-size: 1.2rem;  
+}
+.title{
+color:white;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 15px;
+font-size: 1.7rem;
+}
+.container_list{
+  display: flex;
+}
+.col{
+  flex-basis: 10%;
+
 }

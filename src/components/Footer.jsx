@@ -3,10 +3,10 @@ function Footer() {
         <footer>
             <div>
                 <div className="footer_top">
-                    <div className="row container_list">
+                    <div className="container_list container_70">
                         <div className="col">
                             <ul>
-                                <li>dc comics</li>
+                                <li className="title">dc comics</li>
                                 <li>characters</li>
                                 <li>comics</li>
                                 <li>movies</li>
@@ -14,33 +14,36 @@ function Footer() {
                                 <li>games</li>
                                 <li>videos</li>
                                 <li>news</li>
-                                <li>shop</li>
-                                <li>shop dc</li>
+                                <li className="title">shop</li>
+                                <li >shop dc</li>
                                 <li>shop dc collectbles</li>
                             </ul>
                         </div>
                         <div className="col">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                
+                            <ul>
+                                <li className="title">dc</li>
+                                <li>terms of use</li>
+                                <li>privacy policy(new)</li>
+                                <li>ad choices</li>
+                                <li>advertising</li>
+                                <li>jobs</li>
+                                <li>subsciption</li>
+                                <li>talent workshop</li>
+                                <li>cpsc certificates</li>
+                                <li>ratings</li>
+                                <li>shop help</li>
+                                <li>contact us</li>
+                            </ul>
                         </div>
                         <div className="col">
-                        <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                            <ul>
+                                <li className="title">sites</li>
+                                <li>dc</li>
+                                <li>mad magazine</li>
+                                <li>dc kids</li>
+                                <li>dc universe</li>
+                                <li>dc power visa</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
