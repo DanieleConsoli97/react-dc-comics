@@ -1,9 +1,10 @@
 import NavBar from "./NavBar";
 
-function Header() {
+function Header(props) {
     return (
         <header>
-            <NavBar props = links />
+            console.log({props})
+            <NavBar links= {props}/>
         </header>
     );
 }
