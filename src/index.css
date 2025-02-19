@@ -25,8 +25,6 @@
 .row{
 display: flex;
 align-items: center;
-
-
 }
 .list{
 display: flex;
@@ -101,5 +99,4 @@ font-size: 1.7rem;
 }
 .col{
   flex-basis: 10%;
-
 }
