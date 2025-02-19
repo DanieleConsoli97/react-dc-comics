@@ -1,4 +1,4 @@
-
+// adesso per importare l'array passiamo come attributo props(per convensione) e lo andiamo a destrutturare con  {links(nome usata per nel file padre dove proviene l'informazione)}=props
 function NavBar(props) { 
   const {links} = props;
     return (
