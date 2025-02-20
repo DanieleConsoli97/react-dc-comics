@@ -73,7 +73,7 @@ display: block;
   align-items: center;
 }
 .footer_top{
-background-image: url("../public/img/dc-logo-bg.png"),url("../public/img/footer-bg.jpg");
+background-image: url("/img/dc-logo-bg.png"),url("/img/footer-bg.jpg");
 background-repeat: no-repeat;
 background-size: cover ;
 height: 450px;
@@ -99,4 +99,12 @@ font-size: 1.7rem;
 }
 .col{
   flex-basis: 10%;
+}
+/* header componets jambotron */
+.jambotron{
+background-image: url("/img/jumbotron.jpg");
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
 }

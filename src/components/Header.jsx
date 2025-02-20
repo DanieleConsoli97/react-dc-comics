@@ -1,3 +1,4 @@
+import Jambotron from "./Jambotron";
 import NavBar from "./NavBar";
  /*NOTE - adesso per importare l'array passiamo come attributo props(per convensione) che al momento ha come dati un array di oggetti 
  
@@ -25,6 +26,7 @@ function Header(props) {
         <header>
        {/* NOTE - in questo caso stiamo andando a passare un oggetto chiamato links con il valore dell'array di oggetti linksArray  che arriva dal padre app.jsx quindi per accedere al valore scriviamo props.links */}
        <NavBar links= {props.links}/>
+       <Jambotron />
         </header>
     );
 }
