@@ -5,3 +5,4 @@ const social= [
     {img:"./img/footer-twitter.png"},
     {img:"./img/footer-youtube.png"}
 ]
+export default social;

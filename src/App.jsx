@@ -3,6 +3,7 @@ import Main from "./components/Main"
 import Footer from "./components/Footer"
 import linksArray from "./data/linksArray"
 import comics from "./data/comics"
+import social from "./data/social"
 function App() {
   
 
@@ -10,7 +11,7 @@ function App() {
    <>
       <Header links={linksArray}/>
       <Main comics={comics} />
-      <Footer/>
+      <Footer social={social}/>
   </>
    
   )
