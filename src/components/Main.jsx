@@ -1,12 +1,10 @@
 import MainBottom from "./MainBottom";
+import MainTop from "./MainTop";
 
-function Main() {
+function Main(props) {
     return (
         <main>
-            <div className="main_top">
-                <div className="container_80"><p>content goes here</p></div>
-                
-            </div>
+            <MainTop comics={props.comics} />
             <MainBottom />
         </main>
     );
