@@ -127,3 +127,9 @@ background-position: top;
   width: 100%;
   aspect-ratio: 1/1;
 }
+.footer_bottom{
+  display: flex;
+}
+.footer_bottom_social{
+  display: flex;
+}
