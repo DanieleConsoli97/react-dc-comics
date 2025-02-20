@@ -47,7 +47,7 @@ main{
  
 }
 .main_top{
-  background-color: black;
+  background-color: #1c1c1c;
   padding: 100px;
   color: white;
 }
@@ -107,4 +107,23 @@ height: 500px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: top;
+}
+/* components maintop */
+.cards_top{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/* components card  */
+.card_top{
+  flex-basis: calc(100% / 6  - 40px);
+  
+  font-size: 0.5rem;
+  gap: 10px;
+}
+.img_top{
+  width: 100%;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
 }

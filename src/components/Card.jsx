@@ -6,8 +6,10 @@ function Card(props) {
         comics.map((element)=>{
             const {id,title,description,thumb,price,series,sale_date,type,artist} = element;
             return(
-                <div className="card" key={id}>
-                    <img src={thumb} alt="" />
+                <div className="card_top" key={id}>
+                    <picture>
+                        <img className="img_top" src={thumb} alt="" />
+                    </picture>
                     <h1>{title}</h1>
                 </div>
             )
